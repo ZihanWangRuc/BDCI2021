@@ -1,4 +1,4 @@
-pretrained_model_name='PRETRAINED_MODEL'#所采用的与训练模型的名字（这个是我们自己训练过的）
+pretrained_model_name='paraphrase-multilingual-MiniLM-L12-v2'#所采用的预训练模型的名字
 
 train_path='onlycustomer_train_dataset.csv'#训练集地址
 candidate_representation_path="dataset_representation_last_2.csv"#候选表示输出地址

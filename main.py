@@ -109,8 +109,7 @@ model = SentenceTransformer(pretrained_model_name)
 #model = torch.nn.DataParallel(model, device_ids=device_ids)
 
 """
-上面这个可以用SentenceTransformer的其他预训练库，一开始用的是paraphrase-multilingual-MiniLM-L12-v2
-目前用的这个是已经采取了一定的预训练的一个模型，效果可能会好一点
+上面这个可以用SentenceTransformer的各种预训练库，一开始用的是paraphrase-multilingual-MiniLM-L12-v2
 不知道为什么DataParallel用不了（多个gpu同时工作的一个指令），之后可能会改一改
 
 下面主要是生成训练集、测试集的部分
